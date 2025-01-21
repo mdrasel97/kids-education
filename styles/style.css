@@ -49,6 +49,10 @@
     padding: 10px 40px;
     cursor: pointer;
     margin: 15px 0px;
+    transition: 0.4s ease-in-out;
+}
+.btn_primary:hover{
+    background-color: #FEA301;
 }
 .display_flex{
     display: flex;
@@ -114,6 +118,10 @@ padding: 20px 0px;
     border-radius: 12px;
     padding: 10px 40px;
     cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.nav_btn:hover{
+    background-color: black;
 }
 .navbar_nav{
     gap: 25px;
@@ -298,6 +306,10 @@ padding: 20px 0px;
 footer{
     height: 70vh;
     background: rgb(1, 172, 253);
+    background-image: url("../assets/cool-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .footer_container{
     color: #fff;
@@ -308,7 +320,8 @@ footer{
 
 .footer_nav ul li{
     list-style: none;
-    padding-bottom: 10px;
+    margin-top: 20px;
+    /* padding-bottom: 10px; */
 }
 .footer_nav ul li a{
     text-decoration: none;
@@ -318,8 +331,6 @@ footer{
 .footer_icon img{
     margin-top: 40px;
 }
-
-
 
 
 /* mobile responsive design  */
@@ -352,51 +363,51 @@ footer{
         text-align: center;
     }
     .banner_img, 
-.banner_content{
+    .banner_content{
     width: 100%;
-}
-.banner_hadding{
+    }
+    .banner_hadding{
     font-size: 2rem;
     line-height: 50px;
-}
-/* .curriculum */
-.curriculum_container{
+    }
+    /* .curriculum */
+    .curriculum_container{
     flex-direction: column;
-
-}
-.less_than,
-.greater_than{
+    margin-top: 30px;
+    }
+    .less_than,
+    .greater_than{
     display: none;
-}
-/* stories_container  */
-.left_stories_content{
+    }
+    /* stories_container  */
+    .our_stories{
+        padding-top: 20px;
+    }
+    .left_stories_content{
     display: none;
-}
-/* our stories  */
-.right_stories_content{
+    }
+    /* our stories  */
+    .right_stories_content{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-}
+    }
 
-.stories_btn1,
-.stories_btn2,
-.stories_btn3,
-.stories_btn4{
+    .stories_btn1,
+    .stories_btn2,
+    .stories_btn3,
+    .stories_btn4{
     font-size: 0.70rem;
     top: 42%;
     left: 10px;
     background: #2683b2;
-}
-footer{
+    }
+    footer{
     height: auto;
-}
-.footer_container{
+    }
+    .footer_container{
     flex-direction: column;
     padding: 40px;
-    /* align-items: center; */
-}
-
-
+    }
 }
