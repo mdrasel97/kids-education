@@ -53,6 +53,9 @@
 .display_flex{
     display: flex;
 }
+.white_color{
+    color: #fff;
+}
 .margin{
     margin: 15px 0px;
 }
@@ -305,9 +308,21 @@ footer{
     background: rgb(1, 172, 253);
 }
 .footer_container{
+    color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    padding: 80px 0px;
+    /* align-items: center; */
+}
+
+.footer_nav ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footer_nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    
 }
 
 
@@ -375,6 +390,14 @@ footer{
     top: 42%;
     left: 10px;
     background: #2683b2;
+}
+footer{
+    height: auto;
+}
+.footer_container{
+    flex-direction: column;
+    padding: 80px;
+    /* align-items: center; */
 }
 
 
