@@ -152,12 +152,6 @@ padding: 20px 0px;
  .banner_img img{
     width: 100%;
 }
-/* #empowering{
-    color: #FEA301;
-}
-#vision{
-    color: #01ACFD;
-} */
 
 /* main  */
 .main{
@@ -224,6 +218,7 @@ padding: 20px 0px;
     background: url("../assets/bg.png"), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     
 }
 .our_stories_container{
@@ -240,7 +235,6 @@ padding: 20px 0px;
 }
 .left_stories_content img{
     border-radius: 16px 16px 0px 0px;
-    /* position: relative; */
     
     
 }
@@ -253,7 +247,6 @@ padding: 20px 0px;
     border: none;
     padding: 14px 18px;
     color: #fff;
-    /* margin-top: -80px; */
 }
 .stories_text{
     padding: 30px;
@@ -311,7 +304,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     padding: 80px 0px;
-    /* align-items: center; */
 }
 
 .footer_nav ul li{
@@ -322,6 +314,9 @@ footer{
     text-decoration: none;
     color: #fff;
     
+}
+.footer_icon img{
+    margin-top: 40px;
 }
 
 
@@ -399,7 +394,7 @@ footer{
 }
 .footer_container{
     flex-direction: column;
-    padding: 80px;
+    padding: 40px;
     /* align-items: center; */
 }
 
