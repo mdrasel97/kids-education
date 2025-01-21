@@ -203,8 +203,7 @@ padding: 20px 0px;
 .less_than,
 .greater_than{
     border-radius: 30px;
-/* Orange */
-background: rgb(254, 163, 1);
+    background: rgb(254, 163, 1);
     color: #fff;
     border: none;
     color: rgb(255, 255, 255);
@@ -369,6 +368,10 @@ footer{
 .curriculum_container{
     flex-direction: column;
 
+}
+.less_than,
+.greater_than{
+    display: none;
 }
 /* stories_container  */
 .left_stories_content{
