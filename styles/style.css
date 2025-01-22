@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Quicksand;
+    text-decoration: none;
 }
 
 
@@ -20,7 +21,7 @@
     font-family: Quicksand;
     font-size: 1.90rem;
     font-weight: 700;
-    line-height: 45px;
+    line-height: 40px;
 }
 .hadding_secendary{
     color: rgb(32, 32, 32);
@@ -136,8 +137,14 @@ padding: 20px 0px;
     font-weight: 500;
     line-height: 25px;
 }
+
 .menu{
     display: none;
+}
+.marque{
+    background-color: #fafafa;
+    /* color: #fff; */
+    padding: 5px 0px;
 }
 
 /* banner section  */
@@ -202,6 +209,9 @@ padding: 20px 0px;
     border: 0.94px solid rgb(242, 232, 255);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
+.curriculum_btn:hover{
+    color: #FC427B;
+}
 .less_than,
 .greater_than{
     border-radius: 30px;
@@ -215,6 +225,10 @@ padding: 20px 0px;
     line-height: 24px;
     padding: 17px 22px;
 
+}
+.less_than:hover,
+.greater_than:hover{
+    background-color: #130f40;
 }
 
 /* our_stories_container */
@@ -239,7 +253,6 @@ padding: 20px 0px;
     width: 50%;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    /* position: relative; */
 }
 .left_stories_content img{
     border-radius: 16px 16px 0px 0px;
@@ -255,6 +268,10 @@ padding: 20px 0px;
     border: none;
     padding: 14px 18px;
     color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.date_btn:hover{
+    background-color: #130f40;
 }
 .stories_text{
     padding: 30px;
@@ -297,9 +314,16 @@ padding: 20px 0px;
     border: none;
     padding: 8px 12px;
     color: #fff;
+    transition: 0.4s ease-in-out;
 }
 .stories_btn2{
     background-color: #5D58F0;
+}
+.stories_btn1:hover,
+.stories_btn2:hover,
+.stories_btn3:hover,
+.stories_btn4:hover{
+    background-color: #130f40;
 }
 
 
@@ -321,7 +345,7 @@ padding: 20px 0px;
     width: 100%;
     height: 70vh;
     background-color: #130f40;
-    opacity: 0.7;
+    opacity: 0.8;
     z-index: -1;
 }
 
@@ -330,6 +354,9 @@ padding: 20px 0px;
     display: flex;
     justify-content: space-evenly;
     padding: 80px 0px;
+}
+.footer_logo{
+    gap: 10px;
 }
 
 .footer_nav ul li{
@@ -341,6 +368,9 @@ padding: 20px 0px;
     text-decoration: none;
     color: #fff;
     
+}
+.footer_icon{
+    margin-top: 10px;
 }
 .footer_icon img{
     margin-top: 40px;
@@ -411,13 +441,15 @@ padding: 20px 0px;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     }
+    .stories_card_title{
+        padding: 15px;
+    }
 
     .stories_btn1,
     .stories_btn2,
     .stories_btn3,
     .stories_btn4{
     font-size: 0.70rem;
-    top: ;
     background: #2683b2;
     }
     /* footer  */
