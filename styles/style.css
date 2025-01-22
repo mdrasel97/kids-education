@@ -248,7 +248,7 @@ padding: 20px 0px;
 }
  .date_btn{
     position: absolute;
-    top: 55%;
+    top: 300px;
     left: 30px;
     border-radius: 47px;
     background: rgb(60, 216, 232);
@@ -289,7 +289,7 @@ padding: 20px 0px;
 .stories_btn3,
 .stories_btn4{
     position: absolute;
-    top: 50%;
+    top: 130px;
     left: 30px;
     border-radius: 47px;
     background: #95B226;
@@ -304,12 +304,14 @@ padding: 20px 0px;
 
 
 footer{
+    max-width: 1440px;
     height: 70vh;
     background: rgb(1, 172, 253);
-    background-image: url("../assets/cool-background.png");
+    background-image: url("../assets/footer_bg1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
 .footer_container{
     color: #fff;
