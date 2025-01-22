@@ -303,7 +303,7 @@ padding: 20px 0px;
 
 
 
-footer{
+.footer{
     max-width: 1440px;
     height: 70vh;
     background: rgb(1, 172, 253);
@@ -337,6 +337,10 @@ footer{
 
 /* mobile responsive design  */
 @media only screen and (max-width: 576px) {
+    .paragraph_primary{
+        font-size: 20px;
+        line-height: 25px;
+    }
     .logo_container{
         width: 100%;
         justify-content: space-between;
@@ -405,11 +409,14 @@ footer{
     left: 10px;
     background: #2683b2;
     }
-    footer{
+    .footer{
     height: auto;
     }
     .footer_container{
     flex-direction: column;
     padding: 40px;
+    }
+    .footer_pera{
+        font-size: 12px;
     }
 }
