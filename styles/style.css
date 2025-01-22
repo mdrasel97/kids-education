@@ -239,17 +239,17 @@ padding: 20px 0px;
     width: 50%;
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    position: relative;
+    /* position: relative; */
 }
 .left_stories_content img{
     border-radius: 16px 16px 0px 0px;
-    
+    position: relative;
     
 }
  .date_btn{
-    position: absolute;
-    top: 300px;
-    left: 30px;
+    position: relative;
+    top: -30px;
+    right: -40px;
     border-radius: 47px;
     background: rgb(60, 216, 232);
     border: none;
@@ -275,22 +275,23 @@ padding: 20px 0px;
 .stories_card-4{
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    position: relative;
+}
+
+.stories_card_title{
+    padding: 20px;
 }
 .stories_card img{
     border-radius: 16px 16px 0px 0px;
+    position: relative;
     width: 100%;
-}
-.stories_card_title{
-    padding: 20px;
 }
 .stories_btn1,
 .stories_btn2,
 .stories_btn3,
 .stories_btn4{
-    position: absolute;
-    top: 130px;
-    left: 30px;
+    position: relative;
+    top: -20px;
+    right: -20px;
     border-radius: 47px;
     background: #95B226;
     border: none;
@@ -302,7 +303,7 @@ padding: 20px 0px;
 }
 
 
-
+/* footer  */
 .footer{
     max-width: 1440px;
     height: 70vh;
@@ -312,7 +313,18 @@ padding: 20px 0px;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
+    position: relative;
+    z-index: 9999;
 }
+#footer_bg_image{
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background-color: #130f40;
+    opacity: 0.7;
+    z-index: -1;
+}
+
 .footer_container{
     color: #fff;
     display: flex;
@@ -405,16 +417,17 @@ padding: 20px 0px;
     .stories_btn3,
     .stories_btn4{
     font-size: 0.70rem;
-    top: 42%;
-    left: 10px;
+    top: ;
     background: #2683b2;
     }
-    .footer{
+    /* footer  */
+    .footer,
+    #footer_bg_image{
     height: auto;
     }
     .footer_container{
     flex-direction: column;
-    padding: 40px;
+    padding: 30px;
     }
     .footer_pera{
         font-size: 12px;
